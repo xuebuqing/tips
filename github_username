@@ -1,0 +1,58 @@
+
+github用户名
+xuebuqing
+
+github密码
+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
+
+
+查看进程
+ps -ef | grep ssh
+翻墙
+
+ssh -C -f -N -q -D 8880 user@172.16.12.168
+
+密码：user
+
+查看主函数
+go-callvis -minlen 4 /home/advantech/modbus-engine
+
+go-callvis -skipbrowser -nostd ./
+查看指定包
+cd /home/advantech/modbus-engine
+
+
+go-callvis -group pkg,type -focus github.com/edgehook/modbus-engine/pkg/mqtt  /home/advantech/modbus-engine
+
+建立软连接
+ln -s /home/advantech/gopath /usr/bin/
+
+echo $PATH
+
+查看当前目录
+pwd
+
+sudo cp /usr/share/zoneinfo/Asia/Japan /etc/localtime
+
+github管理
+git branch -a
+git checkout -b feature origin/feature
+git branch
+git checkout feature
+
+172.21.84.20
+111111
+
+git rebase -i HEAD~2
+
+squash 的意思是这个 commit 会被合并到前一个commit(或者s)
+
+pwd 查看linux目录
+
+putty 
+
+mtputty
+
+filezilla client 查看文件
+
+
