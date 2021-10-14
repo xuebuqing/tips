@@ -3,37 +3,6 @@ github用户名
 xuebuqing
 
 github密码
-
-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
-
-查看进程
-ps -ef | grep ssh
-翻墙
-
-ssh -C -f -N -q -D 8880 user@172.16.12.168
-
-密码：user
-
-查看主函数
-go-callvis -minlen 4 /home/advantech/modbus-engine
-
-go-callvis -skipbrowser -nostd ./
-查看指定包
-cd /home/advantech/modbus-engine
-
-
-go-callvis -group pkg,type -focus github.com/edgehook/modbus-engine/pkg/mqtt  /home/advantech/modbus-engine
-
-建立软连接
-ln -s /home/advantech/gopath /usr/bin/
-
-echo $PATH
-
-查看当前目录
-pwd
-
-sudo cp /usr/share/zoneinfo/Asia/Japan /etc/localtime
-
 github管理
 git branch -a
 git checkout -b feature origin/feature
@@ -57,9 +26,38 @@ filezilla client 查看文件
 
 chmod -R 777 *
 
-scp: /home/xue/backlight: Permission denied   home 没有权限
+scp: /home/xue/backlight: Permission denied   不能复制到home 没有权限
+查看进程
+ps -ef | grep ssh
+翻墙
+ssh -C -f -N -q -D 8880 user@172.16.12.168
+密码：user
 
+0 ：它是数字0。可以快速移动光标到所在行的行首。
 
+$ ：英文输入下，按 shift 和数字键 4 即可。可以快速移动光标到所在行行尾第一个非空字符下。
+
+^ ：英文输入下，按 shift 和数字键 6 即可。可以快速移动光标到所在行，「第一个非空字符」处。因为敲代码时总有缩进，当然希望到这一行代码的第一个字母，而不是这一行行首的空格了。
+
+go语言查看结构图
+查看主函数
+go-callvis -minlen 4 /home/advantech/modbus-engine
+go-callvis -skipbrowser -nostd ./
+查看指定包
+cd /home/advantech/modbus-engine
+go-callvis -group pkg,type -focus github.com/edgehook/modbus-engine/pkg/mqtt  /home/advantech/modbus-engine
+
+ubuntu系统
+
+建立软连接
+ln -s /home/advantech/gopath /usr/bin/
+
+echo $PATH
+
+查看当前目录
+pwd
+复制
+sudo cp /usr/share/zoneinfo/Asia/Japan /etc/localtime
 
 按下Esc进入控制模式
 
