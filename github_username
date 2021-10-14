@@ -3,8 +3,8 @@ github用户名
 xuebuqing
 
 github密码
-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
 
+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
 
 查看进程
 ps -ef | grep ssh
@@ -44,7 +44,7 @@ git checkout feature
 111111
 
 git rebase -i HEAD~2
-
+ 
 squash 的意思是这个 commit 会被合并到前一个commit(或者s)
 
 pwd 查看linux目录
@@ -55,4 +55,7 @@ mtputty
 
 filezilla client 查看文件
 
+chmod -R 777 *
+
+scp: /home/xue/backlight: Permission denied   home 没有权限
 
