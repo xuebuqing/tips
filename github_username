@@ -66,3 +66,67 @@ scp: /home/xue/backlight: Permission denied   home 没有权限
 u 表示撤销上一步命令；
 
 Ctr+r 表示恢复上一步被撤销的命令；
+
+大量移动文件    sudo nautilus
+删除文件夹  sudo rm -rf 文件
+终端创建文件夹  mkdir 文件名
+返回上一级目录  cd ..
+显示当前目录    pwd
+复制        cp mm /
+创建工作空间    mkdir catkin_ws
+显示目录文件    ls
+创建包      catkin_create_pkg 包名 roscpp rospy std_msgs
+编译包      1. cd catkin_ws 2. catkin_make
+运行        1. roscore  2. source devel/setup.bash  3. rosrun 包名 可执行文件名
+自动补全    Tap
+打开终端    ctrl+alt+t
+同终端打终端    ctrl+shift+t
+终端复制粘贴    ctrl+shift+C/V
+切换任务栏  alt+Tap
+结束终端任务    ctrl+c
+退出终端    ctrl+d
+系统重启    sudo reboot
+截图        shift+prtsc（打印键）
+打开文件    code file
+查看本机ip  ifconfig -a
+快速删除已输入  ctrl+c
+清空终端    ctrl+l
+超声波USB权限   sudo chmod 777  /dev/ttyUSB0
+编译c++文件     g++ -o test main.cpp /usr/lib/libcontrolcan.so  -lpthread
+更新source      source ~/.bashrc
+conda create -n env_name numpy matplotlib python=3.7
+使用命令conda remove -n your_env_name(虚拟环境名称) --all
+使用命令conda remove --name $your_env_name  $package_name（包名） 即可。
+安装window软件 wine+软件
+配置文件到指定目录下 /.config prefix=
+安全复制 scp -r 文件 用户名@ip：~
+安装安装包 sudo dpkg -i
+sudo apt -get install -f -y
+光标选中 点击中间即可复制
+安装搜狗输入法后，还需要配置当前输入法
+
+
+top 查看內存
+ifconfig 查看ip
+
+在vim 中的快捷命令：
+dd  删除一行
+x   删除单个字符
+：q!    退出
+：qw    不保存退出
+gg  跳转到首行
+shift + g   跳转到最后一行
+
+/word   命令模式下搜索word
+然后按n查找下一个匹配的单词
+按N查找上一个匹配的单词
+
+终端快捷命令
+Ctrl + A 到终端首
+Ctrl + E 到终端尾
+Ctrl + U 擦除到行首
+Ctrl +pageup    同终端切换
+Ctrl +pagedown  同终端切换
+
+watch -n 10 nvidia-smi 显卡gpu
+source activate
