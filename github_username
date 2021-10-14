@@ -59,3 +59,10 @@ chmod -R 777 *
 
 scp: /home/xue/backlight: Permission denied   home 没有权限
 
+
+
+按下Esc进入控制模式
+
+u 表示撤销上一步命令；
+
+Ctr+r 表示恢复上一步被撤销的命令；
