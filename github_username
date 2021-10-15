@@ -29,6 +29,8 @@ chmod -R 777 *
 scp: /home/xue/backlight: Permission denied   不能复制到home 没有权限
 查看进程
 ps -ef | grep ssh
+
+find . -name -print | grep ~
 翻墙
 ssh -C -f -N -q -D 8880 user@172.16.12.168
 密码：user
