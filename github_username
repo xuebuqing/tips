@@ -8,7 +8,7 @@ git branch -a
 git checkout -b feature origin/feature
 git branch
 git checkout feature
-git remote -v
+git remote -v 查看远程分支 fetch and push
 
 172.21.84.20
 111111
